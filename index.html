@@ -7,6 +7,65 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>AueTalkz</title>
   <link rel="icon" href ="Img/Aue.jpg">
+  <style>
+  .Insta {
+    background-color:transparent;
+    color: red;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 240px;
+
+}
+ 
+.Tele{
+    background-color:transparent;
+    color: red;
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+.Utube{
+    background-color:transparent;
+    color: red;
+    height: 40px;
+    width: 100px;
+    border: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 45px;
+    
+}
+</style>
+
+<script>
+    function InstMsge() {
+        
+        alert("Welcome to our Insta Page");
+    }
+    function TeleMsge() {
+        
+        alert("Welcome to our Telegram Group");
+    }
+    function AueMsge() {
+        
+        alert("Welcome to AueTalkz Youtube Channel");
+    }
+</script>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -119,11 +178,11 @@
 		<!--  Team -->
 		<section class="team" id="team">
 			<h2 class="heading" data-sal="slide-left" data-sal-duration="500">Our Team</h2>
-			<p class="text" data-sal="slide-right" data-sal-duration="500">Our Team Currently Consists of 4 Members. <br> 
+			<p class="text" data-sal="slide-right" data-sal-duration="500"><p class="text" data-sal="slide-right" data-sal-duration="500">Our Team Currently Consists of 4 Members. <br> 
 				Firstly, Vasudev, The Interactor and Content Writer and Founder of AueTalkz Channel. <br>
-			Next is the Content Reviewer, Anime Tamil Universe, Who Checks if the Content is that is to be presented is Good.<br>
-			Next is the Script Supporter, Plasmafury who is A Great Script Writer and comes with Almost all the Ideas for the Channel.<br>
-			Latly Comes the Content Editor, KaKaashii, who Helps with the Dubbing and Editing Works</p>
+				Next is the Content Reviewer, Anime Tamil Universe, Who Checks if the Content is that is to be presented is Good.<br>
+				Next is the Script Supporter, Plasmafury who is A Great Script Writer and comes with Almost all the Ideas for the Channel.<br>
+				Latly Comes the Content Editor, KaKaashii, who Helps with the Dubbing and Editing Works</p>
 			<div class="container">
 				<div class="teamBx">
 					<div class="box">
@@ -175,7 +234,7 @@
 		<section class="contact">
 			<div>
 				<h2 class="heading" data-sal="slide-left" data-sal-duration="500">Contact Us</h2>
-				<p class="text" data-sal="slide-right" data-sal-duration="500">You can Contact Us through various Platforms Like Instagram, Telegram.</p>
+				<p class="text" data-sal="slide-right" data-sal-duration="500">You can Contact us through Instagram and Telegram.</p>
 			</div>
 		</section>
 
@@ -201,12 +260,20 @@
 		<!--  Footer -->
 		<section class="footer">
 			<p class="text">Design & Developed By Vasudev</p>
-			<ul>
-				<p class="text">Follow us on : </p>
-
-				<li><a href="#"><img src="images/twitter.png"></a></li>
-				<li><a href="#"><img src="images/linkedin.png"></a></li>
-			</ul>
+			
+			<button class="Insta" onclick="InstMsge()">
+				<a href="https://www.instagram.com/_.itz._geats._here._?igsh=MWdpeHJmczRiMWFkbw==" alt="AueTalkz Personal Instagram">
+				<img class="logoz" src="Img/Insta-removebg-preview.png"></a>
+			</button>
+				
+			 <button class="Tele" onclick="TeleMsge()">
+				<a href="https://t.me/+DCXQZDPELH03ZGJl" alt="AueTalkz TeleGrp">
+				<img class="logoz" src="Img/logo-telegram-4096.png"></a>
+			</button>
+			<button class="Utube" onclick="AueMsge()">
+				<a href="https://www.youtube.com/channel/UCHjQizUVpsRg_62MEl6YlDw" alt="AueTalkz Youtube Channel">
+				<img class="logoz" src="Img/Aue.jpg"></a>
+			</button>
 		</section>
 
 	</div>
